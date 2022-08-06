@@ -26,12 +26,12 @@ a {
     padding: 16px;
     border-bottom: 8px solid #e48181;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .header-branding {
-    flex: 1;
+    flex: 0 1 525px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -43,6 +43,12 @@ a {
 
 /*.company-name {} */
 
+.nav-links {
+    flex: 0 1 525px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .content {
     flex: 1;
     display: flex;
@@ -50,7 +56,7 @@ a {
 }
 
 .head-section {
-    height: 500px;
+    height: 600px;
     background-color: #FF949F;
     padding: 32px;
     border-bottom: 8px solid lightgrey;
@@ -58,7 +64,7 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 64px;
+    gap: 50px;
 }
 
 .head-section-left {
@@ -69,7 +75,7 @@ a {
 }
 
 .head-section-left-box {
-    flex: 0 1 400px;
+    flex: 0 1 500px;
 }
 
 .head-header {
@@ -102,7 +108,7 @@ a {
 }
 
 .head-section-right-box {
-    flex: 0 1 400px;
+    flex: 0 1 500px;
 }
 
 .head-image {
@@ -119,34 +125,42 @@ a {
 }
 
 .food-showcase-header {
+    color: #f85d5f;
     margin-bottom: 16px;
 }
 
 .food-exhibits {
     display: flex;
     justify-content: center;
-    gap: 64px;
+    gap: 100px;
 }
 
 .exhibit {
-    background-color: #ff949f;
+    /*background-color: #ff949f;
     color: white;
 
     padding: 24px;
     border-right: 4px solid lightgrey;
     border-bottom: 4px solid lightgrey;
-    border-radius: 16px;
+    border-radius: 16px;*/
 
     text-align: center;
     flex: 0 1 256px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
+}
+
+.exhibit h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 4px;
 }
 
 .exhibit p {
-    text-shadow: 1px 2px #e48181;
     font-weight: 500;
 }
 
