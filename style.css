@@ -125,7 +125,6 @@ a {
 }
 
 .food-showcase-header {
-    color: #f85d5f;
     margin-bottom: 48px;
     font-size: 28px;
 }
@@ -157,34 +156,14 @@ a {
     gap: 16px;
 }
 
-.exhibit-card {
-    background-color: white;
-
-    border-top: 2px solid lightgrey;
-    border-left: 2px solid lightgrey;
-    border-right: 6px solid lightgrey;
-    border-bottom: 6px solid lightgrey;
-    border-radius: 16px;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.exhibit-card h3 {
-    background-color: #FF949F;
-    color: white;
-    text-shadow: 1px 1px #c06363;
+.exhibit h3 {
     font-weight: 700;
     font-size: 20px;
-    
-    border-radius: 14px 10px 0px 0px;
-    padding: 8px;
+    margin: 0 auto;
 }
 
-.exhibit-card p {
+.exhibit p {
     font-weight: 500;
-
-    padding: 8px;
 }
 
 .food-options-images {
@@ -194,8 +173,8 @@ a {
 }
 
 .quote-section {
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 241, 241);
+    color: rgb(87, 87, 87);
     padding: 48px;
     display: flex;
     justify-content: center;
@@ -214,16 +193,42 @@ a {
 }
 
 .quotier {
+    color: black;
     align-self: flex-end;
 }
 
 .contact-section {
     padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section-box {
+    background-color: #ffffd0;
+
+    padding: 16px;
+    border-right: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    border-radius: 8px;
+
+    flex: 0 1 1050px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.contact-button button {
+    background-color: #ffffd0;
+
+    font-size: 16px;
+
+    padding: 16px 32px;
+    border: 2px solid black;
 }
 
 .footer {
-    background-color: #EBF8F4;
-    color: black;
+    background-color: #FF949F;
+    color: white;
     padding: 16px;
     display: flex;
     justify-content: center;
