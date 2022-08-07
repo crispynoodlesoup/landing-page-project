@@ -173,8 +173,8 @@ a {
 }
 
 .quote-section {
-    background-color: rgb(255, 241, 241);
-    color: rgb(87, 87, 87);
+    background-color: #fff1f1;
+    color: #575757;
     padding: 48px;
     display: flex;
     justify-content: center;
@@ -207,23 +207,30 @@ a {
     background-color: #ffffd0;
 
     padding: 16px;
-    border-right: 2px solid lightgrey;
-    border-bottom: 2px solid lightgrey;
+    border-top: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    border-right: 6px solid lightgrey;
+    border-bottom: 6px solid lightgrey;
     border-radius: 8px;
 
     flex: 0 1 1050px;
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
 }
 
 .contact-button button {
-    background-color: #ffffd0;
+    background-color: #fff2a6;
+    color: #575757;
 
     font-size: 16px;
 
     padding: 16px 32px;
-    border: 2px solid black;
+    border-top: 2px solid #cbcfa0;
+    border-left: 2px solid #cbcfa0;
+    border-right: 3px solid #cbcfa0;
+    border-bottom: 3px solid #cbcfa0;
+    border-radius: 16px;
 }
 
 .footer {
