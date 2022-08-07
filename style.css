@@ -139,33 +139,52 @@ a {
 .exhibit {
     background-color: white;
     /*
-    color: white;*/
+    color: white;
 
     padding: 24px;
     border-top: 2px solid lightgrey;
     border-left: 2px solid lightgrey;
     border-right: 6px solid lightgrey;
     border-bottom: 6px solid lightgrey;
-    border-radius: 16px;
+    border-radius: 16px;*/
 
     text-align: center;
     flex: 0 1 256px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    gap: 8px;
+    align-items: baseline;
+    gap: 16px;
 }
 
-.exhibit h3 {
+.exhibit-card {
+    background-color: white;
+
+    border-top: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    border-right: 6px solid lightgrey;
+    border-bottom: 6px solid lightgrey;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.exhibit-card h3 {
+    background-color: #FF949F;
+    color: white;
+    text-shadow: 1px 1px #c06363;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 16px;
-    margin-bottom: 4px;
+    
+    border-radius: 14px 10px 0px 0px;
+    padding: 8px;
 }
 
-.exhibit p {
+.exhibit-card p {
     font-weight: 500;
+
+    padding: 8px;
 }
 
 .food-options-images {
