@@ -91,6 +91,7 @@ a {
 
 .head-button:hover {
     border: none;
+    margin: 2px 0 0 2px;
 }
 
 .head-button {
@@ -109,6 +110,7 @@ a {
 
 .head-button:active {
     background-color: #ffffd0;
+    color: #575757;
 }
 
 .head-section-right {
@@ -129,7 +131,7 @@ a {
     background-color: white;
     
     padding: 64px;
-    border-bottom: 4px solid #e4d9d9;
+    border-bottom: 6px solid #d4c4c4;
 
     display: flex;
     flex-direction: column;
@@ -189,7 +191,7 @@ a {
     color: #575757;
 
     padding: 48px;
-    border-bottom: 4px solid #ebebeb;
+    border-bottom: 4px solid lightgrey;
 
     display: flex;
     justify-content: center;
@@ -240,6 +242,11 @@ a {
     font-weight: bold;
 }
 
+.contact-button button:hover {
+    margin: 2px 0 0 2px;
+    border: none;
+}
+
 .contact-button button {
     background-color: #fdfdaf;
     color: #575757;
@@ -251,6 +258,11 @@ a {
     border-right: 2px solid #e2d6b0;
     border-bottom: 2px solid #e2d6b0;
     border-radius: 16px;
+}
+
+.contact-button button:active {
+    background-color: #FF949F;
+    color: white;
 }
 
 .footer {
