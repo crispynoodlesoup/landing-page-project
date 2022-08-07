@@ -118,7 +118,10 @@ a {
 
 .food-showcase-section {
     background-color: white;
+    
     padding: 64px;
+    border-bottom: 4px solid #e4d9d9;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +178,10 @@ a {
 .quote-section {
     background-color: #fff1f1;
     color: #575757;
+
     padding: 48px;
+    border-bottom: 4px solid #ebebeb;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,12 +205,14 @@ a {
 
 .contact-section {
     padding: 32px;
+    border-bottom: 4px solid #c07575;
+
     display: flex;
     justify-content: center;
 }
 
 .contact-section-box {
-    background-color: #ffffd0;
+    background-color: white;
 
     padding: 16px;
     border-top: 2px solid lightgrey;
@@ -220,7 +228,7 @@ a {
 }
 
 .contact-button button {
-    background-color: #fff2a6;
+    background-color: white;
     color: #575757;
 
     font-size: 16px;
